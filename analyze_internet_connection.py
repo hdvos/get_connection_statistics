@@ -13,8 +13,23 @@ import re
 import os, sys
 import json
 import logging
+from logging.handlers import RotatingFileHandler
 
 logging.basicConfig(filename='/home/hugo/MEGA/scripts/get_connection_statistics/connectionchecker.log', level=logging.DEBUG)
+
+
+log_formatter = logging.Formatter('%(asctime)s %(levelname)s %(funcName)s(%(lineno)d) %(message)s')
+
+logFile = '/home/hugo/MEGA/scripts/get_connection_statistics/connectionchecker.log'
+
+my_handler = RotatingFileHandler(logFile, mode='a', maxBytes=5*1024*1024,  backupCount=2, encoding=None, delay=0)
+my_handler.setFormatter(log_formatter)
+my_handler.setLevel(logging.DEBUG)
+
+my_log = logging.getLogger('root')
+my_log.setLevel(logging.INFO)
+
+my_log.addHandler(my_handler)
 
 # 
 #TODO: logging
@@ -55,9 +70,18 @@ class Connectiondata:
     pingdata:PingData
     
 def do_speedtest():
-    s = speedtest.Speedtest()
+    my_log.debug("do speedtest")
+    try:
+        s = speedtest.Speedtest()
+    except Exception as e:
+        my_log.error(e)
+        sys.exit(1)
+
+    my_log.debug("speedtest initialized")
     up = s.upload()
+    my_log.debug(f"up {up}")
     down = s.download()
+    my_log.debug(f"down {down}")
     
     return up, down
     
@@ -96,13 +120,13 @@ def get_pingdata(hostlist, nrpings):
         try:
             the_mean = mean(pinglist)
         except Exception:
-            logging.warning(f"Could not calculate mean for {host}")
+            my_log.warning(f"Could not calculate mean for {host}")
             the_mean = None
             
         try:
             the_stdev = stdev(pinglist)
         except Exception:
-            logging.warning(f"Could not calculate stdev for {host}")
+            my_log.warning(f"Could not calculate stdev for {host}")
             the_stdev = None
             
         pingdata = PingData(host, the_mean, the_stdev, nrpings)
@@ -161,7 +185,7 @@ def to_json(connectiondata, root_output_folder, timestamp):
     outfile = os.path.join(outfolder, outfile)
     with open(outfile, 'wt') as out:
         json.dump(asdict(connectiondata), out)
-
+    my_log.info(f"Data saved at {outfile}")
 
 
 if __name__ == "__main__":
@@ -173,18 +197,21 @@ if __name__ == "__main__":
         reason = sys.argv[1]
     except IndexError:
         reason = "Run script manually."
-    logging.info(f'Check connection at {current_time.strftime("%m/%d/%Y, %H:%M:%S")}. Reason: {reason} ')
+    my_log.info(f'Check connection at {current_time.strftime("%m/%d/%Y, %H:%M:%S")}. Reason: {reason} ')
 
+    prev_wd = os.getcwd()
     os.chdir(sys.path[0])
-    logging.info(f"wd changed to {os.getcwd()}")
+    my_log.info(f"wd changed from {prev_wd} to {os.getcwd()}")
     connected = is_connected()
+    
     if connected:
         print("connection found")
     else:
         print("we are not connected")
-    with open("/home/hugo/MEGA/scripts/get_connection_statistics/connection_tested.txt", 'wt') as out:    
-        out.write(current_time.strftime("%m/%d/%Y, %H:%M:%S"))
-    
+    # with open("/home/hugo/MEGA/scripts/get_connection_statistics/connection_tested.txt", 'wt') as out:    
+    #     out.write(current_time.strftime("%m/%d/%Y, %H:%M:%S"))
+    my_log.info(f'connected: {connected}')
+
     if not connected:
         connectiondata = Connectiondata(
             collection_reason = reason,
@@ -199,17 +226,39 @@ if __name__ == "__main__":
         ip_addr = '' #TODO
         
         print("run speedtest")
-        up, down = do_speedtest()
+        try:
+            up, down = do_speedtest()
+            my_log.info(f'speedtest done')
+        except Exception as e:
+            my_log.warning(f"Speedtest failed. {e}")
+            up, down = None, None
 
-        with open("/home/hugo/MEGA/scripts/get_connection_statistics/speedtest_done.txt", 'wt') as out:    
-            out.write(current_time.strftime("%m/%d/%Y, %H:%M:%S"))
-
-        hostlist = load_hostlist(hostlist_file='/home/hugo/MEGA/scripts/get_connection_statistics/hostlist.txt')
-        print("run pingtest")
-        pingdata = get_pingdata(hostlist, 10)
-        print("check vpn status")
-        nordvpn_status = get_nordvpn_status()
+        # with open("/home/hugo/MEGA/scripts/get_connection_statistics/speedtest_done.txt", 'wt') as out:    
+        #     out.write(current_time.strftime("%m/%d/%Y, %H:%M:%S"))
         
+        try:
+            hostlist = load_hostlist(hostlist_file='/home/hugo/MEGA/scripts/get_connection_statistics/hostlist.txt')
+        except Exception as e:
+            my_log.error(f"Cound not load hostlist. {e}")
+            sys.exit(1)
+
+        try:
+            print("run pingtest")
+            pingdata = get_pingdata(hostlist, 20)
+            print("check vpn status")
+        except Exception as e:
+            my_log.error(f"Cound not do pingtest: {e}")
+            sys.exit(1)
+            
+        my_log.info(f'pingtest done')
+
+        try:
+            nordvpn_status = get_nordvpn_status()
+        except Exception as e:
+            my_log.error(f"Could not check nordvpn status {e}")
+        
+        my_log.info(f'nordvpn status checked')
+
         connectiondata = Connectiondata(
             collection_reason = reason,
             datetime=current_time.strftime("%m/%d/%Y, %H:%M:%S"),
@@ -222,3 +271,4 @@ if __name__ == "__main__":
             
     pprint(asdict(connectiondata))
     to_json(connectiondata, 'data', current_time)
+    my_log.info(f'script completed at {datetime.now().strftime("%m/%d/%Y, %H:%M:%S")}')

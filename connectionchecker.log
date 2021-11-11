@@ -169,3 +169,225 @@ INFO:root:Check connection at 11/11/2021, 13:22:03. Reason: blah
 INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
 DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
 DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6416
+INFO:root:Check connection at 11/11/2021, 14:00:01. Reason: hourly 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6388
+INFO:root:Check connection at 11/11/2021, 15:00:02. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6393
+INFO:root:Check connection at 11/11/2021, 16:00:02. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6392
+INFO:root:connected: True
+INFO:root:Check connection at 11/11/2021, 16:07:02. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6383
+INFO:root:connected: True
+DEBUG:root:do speedtest
+DEBUG:root:speedtest initialized
+DEBUG:root:up 113380104.48098305
+INFO:root:speedtest done
+INFO:root:pingtest done
+INFO:root:nordvpn status checked
+INFO:root:script completed at 11/11/2021, 16:07:24
+INFO:root:Check connection at 11/11/2021, 16:08:02. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6381
+INFO:root:connected: True
+DEBUG:root:do speedtest
+DEBUG:root:speedtest initialized
+DEBUG:root:up 109943459.40281606
+INFO:root:speedtest done
+INFO:root:pingtest done
+INFO:root:nordvpn status checked
+INFO:root:script completed at 11/11/2021, 16:08:23
+INFO:root:Check connection at 11/11/2021, 16:09:02. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6396
+INFO:root:connected: True
+DEBUG:root:do speedtest
+DEBUG:root:speedtest initialized
+DEBUG:root:up 76342628.60776226
+INFO:root:speedtest done
+INFO:root:pingtest done
+INFO:root:nordvpn status checked
+INFO:root:script completed at 11/11/2021, 16:09:24
+INFO:root:Check connection at 11/11/2021, 16:10:02. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6390
+INFO:root:connected: True
+DEBUG:root:do speedtest
+DEBUG:root:speedtest initialized
+DEBUG:root:up 121668311.59728362
+DEBUG:root:down 211686091.4386427
+INFO:root:speedtest done
+INFO:root:pingtest done
+INFO:root:nordvpn status checked
+INFO:root:script completed at 11/11/2021, 16:10:23
+INFO:root:Check connection at 11/11/2021, 16:11:02. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6390
+INFO:root:connected: True
+DEBUG:root:do speedtest
+DEBUG:root:speedtest initialized
+DEBUG:root:up 114724923.449888
+DEBUG:root:down 209279670.37225774
+INFO:root:speedtest done
+INFO:root:pingtest done
+INFO:root:nordvpn status checked
+INFO:root:script completed at 11/11/2021, 16:11:23
+2021-11-11 17:00:03,205 INFO <module>(200) Check connection at 11/11/2021, 17:00:03. Reason: blah 
+INFO:root:Check connection at 11/11/2021, 17:00:03. Reason: blah 
+2021-11-11 17:00:03,205 INFO <module>(203) wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6405
+2021-11-11 17:00:03,267 INFO <module>(211) connected: True
+INFO:root:connected: True
+2021-11-11 17:12:31,379 INFO <module>(200) Check connection at 11/11/2021, 17:12:31. Reason: Run script manually. 
+INFO:root:Check connection at 11/11/2021, 17:12:31. Reason: Run script manually. 
+2021-11-11 17:12:31,379 INFO <module>(203) wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6422
+2021-11-11 17:12:31,465 INFO <module>(212) connected: True
+INFO:root:connected: True
+2021-11-11 17:13:02,321 INFO <module>(230) speedtest done
+INFO:root:speedtest done
+2021-11-11 17:13:03,118 INFO <module>(252) pingtest done
+INFO:root:pingtest done
+2021-11-11 17:13:03,152 INFO <module>(259) nordvpn status checked
+INFO:root:nordvpn status checked
+2021-11-11 17:13:03,164 INFO <module>(273) script completed at 11/11/2021, 17:13:03
+INFO:root:script completed at 11/11/2021, 17:13:03
+2021-11-11 17:14:06,319 INFO <module>(200) Check connection at 11/11/2021, 17:14:06. Reason: Run script manually. 
+INFO:root:Check connection at 11/11/2021, 17:14:06. Reason: Run script manually. 
+2021-11-11 17:14:06,320 INFO <module>(203) wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6420
+2021-11-11 17:14:06,390 INFO <module>(212) connected: True
+INFO:root:connected: True
+2021-11-11 17:14:32,665 INFO <module>(230) speedtest done
+INFO:root:speedtest done
+2021-11-11 17:14:33,157 INFO <module>(252) pingtest done
+INFO:root:pingtest done
+2021-11-11 17:14:33,198 INFO <module>(259) nordvpn status checked
+INFO:root:nordvpn status checked
+2021-11-11 17:14:33,208 INFO <module>(273) script completed at 11/11/2021, 17:14:33
+INFO:root:script completed at 11/11/2021, 17:14:33
+2021-11-11 17:15:29,124 INFO <module>(200) Check connection at 11/11/2021, 17:15:29. Reason: Run script manually. 
+INFO:root:Check connection at 11/11/2021, 17:15:29. Reason: Run script manually. 
+2021-11-11 17:15:29,124 INFO <module>(204) wd changed from /home/hugo/MEGA/scripts/get_connection_statistics to /home/hugo/MEGA/scripts/get_connection_statistics
+INFO:root:wd changed from /home/hugo/MEGA/scripts/get_connection_statistics to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6398
+2021-11-11 17:15:29,192 INFO <module>(213) connected: True
+INFO:root:connected: True
+2021-11-11 17:15:49,862 INFO <module>(231) speedtest done
+INFO:root:speedtest done
+2021-11-11 17:15:50,379 INFO <module>(253) pingtest done
+INFO:root:pingtest done
+2021-11-11 17:15:50,413 INFO <module>(260) nordvpn status checked
+INFO:root:nordvpn status checked
+2021-11-11 17:15:50,417 INFO <module>(274) script completed at 11/11/2021, 17:15:50
+INFO:root:script completed at 11/11/2021, 17:15:50
+2021-11-11 17:17:02,388 INFO <module>(200) Check connection at 11/11/2021, 17:17:02. Reason: blah 
+INFO:root:Check connection at 11/11/2021, 17:17:02. Reason: blah 
+2021-11-11 17:17:02,388 INFO <module>(204) wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+INFO:root:wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6411
+2021-11-11 17:17:02,453 INFO <module>(213) connected: True
+INFO:root:connected: True
+2021-11-11 17:17:23,141 INFO <module>(231) speedtest done
+INFO:root:speedtest done
+2021-11-11 17:17:23,601 INFO <module>(253) pingtest done
+INFO:root:pingtest done
+2021-11-11 17:17:23,643 INFO <module>(260) nordvpn status checked
+INFO:root:nordvpn status checked
+2021-11-11 17:17:23,654 INFO <module>(274) script completed at 11/11/2021, 17:17:23
+INFO:root:script completed at 11/11/2021, 17:17:23
+2021-11-11 17:18:02,995 INFO <module>(200) Check connection at 11/11/2021, 17:18:02. Reason: blah 
+INFO:root:Check connection at 11/11/2021, 17:18:02. Reason: blah 
+2021-11-11 17:18:02,995 INFO <module>(204) wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+INFO:root:wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6437
+2021-11-11 17:18:03,058 INFO <module>(213) connected: True
+INFO:root:connected: True
+2021-11-11 17:18:23,768 INFO <module>(231) speedtest done
+INFO:root:speedtest done
+2021-11-11 17:18:24,318 INFO <module>(253) pingtest done
+INFO:root:pingtest done
+2021-11-11 17:18:24,392 INFO <module>(260) nordvpn status checked
+INFO:root:nordvpn status checked
+2021-11-11 17:18:24,402 INFO <module>(274) script completed at 11/11/2021, 17:18:24
+INFO:root:script completed at 11/11/2021, 17:18:24
+2021-11-11 17:19:02,761 INFO <module>(200) Check connection at 11/11/2021, 17:19:02. Reason: blah 
+INFO:root:Check connection at 11/11/2021, 17:19:02. Reason: blah 
+2021-11-11 17:19:02,761 INFO <module>(204) wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+INFO:root:wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6411
+2021-11-11 17:19:02,827 INFO <module>(213) connected: True
+INFO:root:connected: True
+2021-11-11 17:19:24,305 INFO <module>(231) speedtest done
+INFO:root:speedtest done
+2021-11-11 17:19:24,850 INFO <module>(253) pingtest done
+INFO:root:pingtest done
+2021-11-11 17:19:24,863 INFO <module>(260) nordvpn status checked
+INFO:root:nordvpn status checked
+2021-11-11 17:19:24,867 INFO to_json(188) Data saved at data/2021/11/11/17_19_02.json
+INFO:root:Data saved at data/2021/11/11/17_19_02.json
+2021-11-11 17:19:24,868 INFO <module>(274) script completed at 11/11/2021, 17:19:24
+INFO:root:script completed at 11/11/2021, 17:19:24
+2021-11-11 17:20:03,174 INFO <module>(200) Check connection at 11/11/2021, 17:20:03. Reason: blah 
+INFO:root:Check connection at 11/11/2021, 17:20:03. Reason: blah 
+2021-11-11 17:20:03,174 INFO <module>(204) wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+INFO:root:wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6438
+2021-11-11 17:20:03,230 INFO <module>(213) connected: True
+INFO:root:connected: True
+2021-11-11 17:20:24,675 INFO <module>(231) speedtest done
+INFO:root:speedtest done
+2021-11-11 17:20:30,190 INFO <module>(253) pingtest done
+INFO:root:pingtest done
+2021-11-11 17:20:30,227 INFO <module>(260) nordvpn status checked
+INFO:root:nordvpn status checked
+2021-11-11 17:20:30,234 INFO to_json(188) Data saved at data/2021/11/11/17_20_03.json
+INFO:root:Data saved at data/2021/11/11/17_20_03.json
+2021-11-11 17:20:30,235 INFO <module>(274) script completed at 11/11/2021, 17:20:30
+INFO:root:script completed at 11/11/2021, 17:20:30
+2021-11-11 21:20:08,660 INFO <module>(200) Check connection at 11/11/2021, 21:20:08. Reason: blah 
+INFO:root:Check connection at 11/11/2021, 21:20:08. Reason: blah 
+2021-11-11 21:20:08,660 INFO <module>(204) wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+INFO:root:wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+2021-11-11 21:30:02,889 INFO <module>(200) Check connection at 11/11/2021, 21:30:02. Reason: blah 
+INFO:root:Check connection at 11/11/2021, 21:30:02. Reason: blah 
+2021-11-11 21:30:02,889 INFO <module>(204) wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+INFO:root:wd changed from /home/hugo to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6420
+2021-11-11 21:30:07,966 INFO <module>(213) connected: True
+INFO:root:connected: True
+2021-11-11 21:30:09,273 WARNING <module>(233) Speedtest failed. Unable to connect to servers to test latency.
+WARNING:root:Speedtest failed. Unable to connect to servers to test latency.
+2021-11-11 21:30:11,193 INFO <module>(253) pingtest done
+INFO:root:pingtest done
+2021-11-11 21:30:11,224 INFO <module>(260) nordvpn status checked
+INFO:root:nordvpn status checked
+2021-11-11 21:30:11,226 INFO to_json(188) Data saved at data/2021/11/11/21_30_02.json
+INFO:root:Data saved at data/2021/11/11/21_30_02.json
+2021-11-11 21:30:11,226 INFO <module>(274) script completed at 11/11/2021, 21:30:11
+INFO:root:script completed at 11/11/2021, 21:30:11
