@@ -1,0 +1,171 @@
+INFO:root:Check connection at 11/09/2021, 15:26:38
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6390
+INFO:root:Check connection at 11/09/2021, 15:31:00. Reason: Run script manually. 
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6336
+INFO:root:Check connection at 11/09/2021, 16:28:43. Reason: Run script manually. 
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6339
+INFO:root:Check connection at 11/09/2021, 16:32:16. Reason: Run script manually. 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6327
+INFO:root:Check connection at 11/09/2021, 16:50:05. Reason: just_because 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6336
+INFO:root:Check connection at 11/09/2021, 22:39:14. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6375
+INFO:root:Check connection at 11/09/2021, 22:41:36. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6390
+INFO:root:Check connection at 11/09/2021, 22:43:29. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6364
+INFO:root:Check connection at 11/09/2021, 22:46:20. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6374
+INFO:root:Check connection at 11/09/2021, 22:47:52. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6402
+INFO:root:Check connection at 11/09/2021, 22:49:24. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6389
+INFO:root:Check connection at 11/09/2021, 22:53:17. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6363
+WARNING:root:Could not calculate mean for universiteitleiden.nl
+WARNING:root:Could not calculate stdev for universiteitleiden.nl
+INFO:root:Check connection at 11/09/2021, 22:54:54. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6374
+INFO:root:Check connection at 11/10/2021, 09:46:29. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6369
+INFO:root:Check connection at 11/10/2021, 09:47:19. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6396
+INFO:root:Check connection at 11/10/2021, 09:50:12. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6356
+INFO:root:Check connection at 11/10/2021, 10:02:25. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6363
+INFO:root:Check connection at 11/10/2021, 10:03:27. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6388
+INFO:root:Check connection at 11/10/2021, 11:04:17. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6380
+INFO:root:Check connection at 11/10/2021, 11:58:27. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6344
+INFO:root:Check connection at 11/10/2021, 12:49:44. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6395
+INFO:root:Check connection at 11/10/2021, 14:13:21. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6373
+INFO:root:Check connection at 11/10/2021, 14:14:09. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6371
+INFO:root:Check connection at 11/10/2021, 14:16:27. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6324
+INFO:root:Check connection at 11/10/2021, 14:18:47. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6343
+INFO:root:Check connection at 11/10/2021, 14:19:58. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6373
+INFO:root:Check connection at 11/10/2021, 14:21:14. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6348
+INFO:root:Check connection at 11/10/2021, 15:10:54. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6366
+INFO:root:Check connection at 11/10/2021, 15:11:28. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6391
+INFO:root:Check connection at 11/10/2021, 15:12:11. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6380
+INFO:root:Check connection at 11/10/2021, 15:12:58. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6360
+INFO:root:Check connection at 11/10/2021, 15:13:56. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6331
+INFO:root:Check connection at 11/10/2021, 15:38:29. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6374
+INFO:root:Check connection at 11/10/2021, 15:39:23. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6365
+INFO:root:Check connection at 11/10/2021, 22:14:24. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6382
+INFO:root:Check connection at 11/11/2021, 13:12:16. Reason: Run script manually. 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6386
+INFO:root:Check connection at 11/11/2021, 13:13:12. Reason: Run script manually. 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6396
+INFO:root:Check connection at 11/11/2021, 13:17:02. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6399
+INFO:root:Check connection at 11/11/2021, 13:18:03. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6364
+INFO:root:Check connection at 11/11/2021, 13:19:02. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6378
+INFO:root:Check connection at 11/11/2021, 13:20:03. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6370
+INFO:root:Check connection at 11/11/2021, 13:21:02. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6407
+INFO:root:Check connection at 11/11/2021, 13:22:03. Reason: blah 
+INFO:root:wd changed to /home/hugo/MEGA/scripts/get_connection_statistics
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6416
