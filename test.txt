@@ -1,4 +1,0 @@
-wo 10 nov 2021 22:14:23 CET
-before python
-exit code 0
-after python
