@@ -1,6 +1,6 @@
 # Connectionlogger
 
-With this script I am logging my connection.
+With this script I am logging the quality of my internet connection.
 I will add an explanation on how it works later.
 
 First the code needs some cleaning.
